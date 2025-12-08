@@ -1,0 +1,33 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+*.js
+*.d.ts
+!eslint.config.mjs
+
+# Test coverage
+coverage
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+package-lock.json
