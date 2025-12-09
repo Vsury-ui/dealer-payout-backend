@@ -1,6 +1,6 @@
 import { DataSource } from 'typeorm';
 
-export const KolkataDataSource = (config: {
+export const NewDataSource = (config: {
   host: string;
   db_user: string;
   db_password: string;
